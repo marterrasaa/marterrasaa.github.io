@@ -1,0 +1,86 @@
+
+body{
+    background-color: rgb(238, 236, 236);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container{
+    width: 100%;
+    margin: 0% auto;
+    border: 4px rgb(0, 0, 0);
+}
+
+header{
+    background-color: rgb(247, 201, 240);
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line height: 100px;
+    border-bottom: 10px;
+    font-size: 50px;
+}
+
+{
+    margin: 3px;
+    padding: 0px;
+}
+
+nav ul li{
+float: left;
+list-style: none;
+margin: 10px;
+line-height: 30px;
+font-size: 18px;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+nav{
+    background: rgb(247, 201, 240);
+    height: 50px;
+    border-bottom: 1px;
+}
+
+#content{
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    min-height: 250px;
+    padding: 40px;
+    font-size: 19px;
+}
+
+aside{
+    float: left;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    min-width: 500px;
+    padding: 40px;
+}
+
+aside{
+    float: left;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    min-width: 500px;
+    padding: 40px;
+}
+ 
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.article{
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom-color: 1px rgb(0, 0, 0);
+}
